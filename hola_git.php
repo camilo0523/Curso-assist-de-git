@@ -1,2 +1,3 @@
 <?php
-echo "Hola Mundo en Git {$argv[1]}\n";
+$nombre = isset($argv[1]) ? ($argv[1]) : "Mundo en Git";
+@print "Hola, {$nombre}\n";
